@@ -1,0 +1,20 @@
+{
+  "platformio-ide.useBuiltinPIOCore": true
+}{
+    "platformio-ide.useBuiltinPIOCore": false,
+    "platformio-ide.customPATH": "/Library/Frameworks/Python.framework/Versions/3.12/bin",
+    "platformio-ide.customPIOCorePath": "",
+    "platformio-ide.autoCleanSerialMonitor": true,
+    "platformio-ide.autoOpenSerialMonitor": false,
+    "platformio-ide.keepPIOProjectCoreInSync": false,
+    "files.associations": {
+        "platformio.ini": "ini"
+    },
+    "terminal.integrated.env.osx": {
+        "PATH": "/Library/Frameworks/Python.framework/Versions/3.12/bin:${env:PATH}"
+    },
+    "platformio-ide.terminal.customEnv": {
+        "PATH": "/Library/Frameworks/Python.framework/Versions/3.12/bin:${env:PATH}"
+    },
+    "platformio-ide.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
+}

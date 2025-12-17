@@ -1,0 +1,64 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PlatformIO: Build",
+            "type": "shell",
+            "command": "python3 -m platformio run",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$platformio",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "PlatformIO: Upload",
+            "type": "shell",
+            "command": "python3 -m platformio run --target upload",
+            "group": "none",
+            "problemMatcher": "$platformio",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "PlatformIO: Upload and Monitor",
+            "type": "shell",
+            "command": "python3 -m platformio run --target upload && python3 -m platformio device monitor",
+            "group": "none",
+            "problemMatcher": "$platformio",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "PlatformIO: Monitor",
+            "type": "shell",
+            "command": "python3 -m platformio device monitor",
+            "group": "none",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "PlatformIO: Clean",
+            "type": "shell",
+            "command": "python3 -m platformio run --target clean",
+            "group": "none",
+            "problemMatcher": "$platformio",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        }
+    ]
+}
+
