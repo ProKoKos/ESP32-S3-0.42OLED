@@ -2,6 +2,8 @@
 
 Пример кода для работы с OLED дисплеем 0.42" (72x40) на ESP32-S3.
 
+![ESP32-S3-0.42OLED Board](images/esp32-s3-0.42oled.jpg)
+
 ## Характеристики
 
 - **Плата**: ESP32-S3-0.42OLED
@@ -16,7 +18,7 @@
 1. Установите [PlatformIO](https://platformio.org/)
 2. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/ESP32-S3-0.42OLED.git
+git clone https://github.com/ProKoKos/ESP32-S3-0.42OLED.git
 cd ESP32-S3-0.42OLED
 ```
 
@@ -48,6 +50,7 @@ pio device monitor
 ├── platformio.ini    # Конфигурация PlatformIO
 ├── src/
 │   └── main.cpp      # Основной код
+├── images/           # Изображения платы
 └── README.md         # Этот файл
 ```
 
